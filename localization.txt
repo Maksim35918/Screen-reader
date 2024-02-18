@@ -1,0 +1,14 @@
+;此文件配置可以对游戏朗读内容进行自定义文本朗读替换翻译，每一行对应一条替换规则
+;a=b表示朗读a时将a替换为b，可使用{参数名称}的形式来作为可变参数，两个参数之间至少需要间隔一个字符，例如：“{方位}米{名称}=注意！{名称}出现在{方位}米处”，那么在朗读“北10米世界首领”时就会变成“注意！世界首领出现在北10米处”
+;a>b表示将含有a的文本中的a替换为b，例如：“玉虚山>大宝剑”，那么在朗读“敌1玉虚山”时就会变成“敌1大宝剑”
+;以下是可能导致某些语音库崩溃的文本，已进行替换
+;This file configuration can perform custom text reading replacement translation for game reading content, and each line corresponds to a replacement rule.
+;A=B means that A is replaced with B when reading A. You can use the form of {parameter name} as a variable parameter. At least one character is required between the two parameters. For example, "{dir} {dis} meters {name}=be careful! {name} appears at {dir} away {dis} meters". Then, when reading "North 10 meters Boss", it will become "be careful! Boss appears at North away 10 meters".
+;A>B means that A in the text containing A is replaced with B. For example, "Yuxushan>Big sword". Then, when reading "Enemy 1 Yuxushan", it will become "Enemy 1 Big sword".
+;The following are the texts that may lead to the crash of some Speech library, they have been replaced.
+
+tzsche>tzsch e
+~>…
+edhesday>e dhesday
+]> ]
+］> ］
